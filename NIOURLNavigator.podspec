@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wangteng6680/URLNavigator.git", :tag => "#{s.version}" }
   s.homepage     = "https://github.com/wangteng6680/URLNavigator"
   s.source_files = "*.{h,m}"
-  # s.resources    = "Source/*.{png,xib,nib,bundle}"
+  # s.resources    = "*.{png,xib,nib,bundle}"
   s.framework    = "UIKit"
   s.requires_arc = true
 end
