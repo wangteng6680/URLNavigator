@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "NIOURLNavigator",
+    name: "URLNavigator",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "NIOURLNavigator",
-            targets: ["NIOURLNavigator"]),
+            name: "URLNavigator",
+            targets: ["URLNavigator"]),
     ],
     targets: [
         .target(
-            name: "NIOURLNavigator",
-			path: "Sources"),
+            name: "URLNavigator",
+			path: "Source"),
         .testTarget(
             name: "NIOURLNavigatorTests",
-            dependencies: ["NIOURLNavigator"]),
+            dependencies: ["URLNavigator"]),
     ]
 )
